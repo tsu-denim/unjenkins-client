@@ -1,0 +1,72 @@
+body {
+    background:grey;
+    color: black;
+}
+
+#rest-output {
+    min-height:200px;
+    font-family: 'VT323' ;
+    text-align: center;
+
+}
+
+#wrapper {
+    min-height: 500px;
+    margin-top: auto ;
+    margin-top: auto ;
+    width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+
+}
+
+#progressBar {
+    background-image:url("../images/potato.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:256px;width:256px;
+    margin-left: auto  ;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    animation: blink 0.2s steps(10, start) infinite;
+    -webkit-animation: blink 0.2s steps(10, start) infinite;
+}
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#heading {
+    font-family: 'VT323' ;
+    font-size: 2em;
+}
+
+#heading:before{
+    content:"стыд \0000a0";
+}
+#heading:after{
+    content:"\0000a0 стыд";
+}
+.fadeLink {
+    opacity: 0; visibility: hidden;
+    -webkit-transition: visibility 0.2s linear, opacity 0.2s linear;
+    -moz-transition: visibility 0.2s linear, opacity 0.2s linear;
+    -o-transition: visibility 0.2s linear, opacity 0.2s linear;
+    width: 100px;
+    margin-left: auto  ;
+    margin-right: auto;}
+
+div:hover .fadeLink { visibility: visible; opacity:0.7;}
+
+.center {width: 400px;
+    margin-left: auto  ;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;}

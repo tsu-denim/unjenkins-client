@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" id="cssTheme" type="text/css" href="assets/themes/default/styles/styles.css" media="screen" />
+    <script type="application/javascript" src="assets/scripts/dashboardScript.js" defer></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div class="pure-menu pure-menu-horizontal ">
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            <a href="#" id="menuLink1" class="pure-menu-link fadeLink">Flavors</a>
+            <ul class="pure-menu-children">
+                <li class="pure-menu-item" ><a href="#"  class="pure-menu-link" id="default">Kitty Cat</a></li>
+                <li class="pure-menu-item" ><a href="#"  class="pure-menu-link" id="potato">Potato</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div >
+<div id = "wrapper">
+    <div class="center">
+        <i id="serverConnection" class="material-icons md-dark">router</i>
+        <div id="heading">Board of Shame</div>
+        </div>
+    <div id="rest-output" ></div>
+    <div class="fadeLink"><button onclick="refreshContent()" id="fadeLink" class="pure-button">Refresh</button></div>
+    <div id="progressBar"></div>
+</div>
+</div>
+</body>
+</html>

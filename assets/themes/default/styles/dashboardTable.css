@@ -1,0 +1,119 @@
+.passed {
+    border: 2px solid #a1a1a1;
+    padding: 10px 11px;
+    background: limegreen;
+    width: 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+
+}
+
+.failed {
+    border: 2px solid #a1a1a1;
+    padding: 10px 11px;
+    background: red;
+    width: 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
+
+.corrupt {
+    border: 2px solid #a1a1a1;
+    padding: 10px 11px;
+    background: mintcream;
+    width: 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
+
+.unstable {
+    border: 2px solid #a1a1a1;
+    padding: 10px 11px;
+    background: yellow;
+    width: 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
+
+.aborted {
+    border: 2px solid #a1a1a1;
+    padding: 10px 11px;
+    background: orange;
+    width: 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
+
+.building {
+      border: 2px solid #a1a1a1;
+      padding: 10px 11px;
+      width: 2px;
+      border-radius: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      background: linear-gradient(75deg, #aeaeae, #878383);
+      background-size: 400% 400%;
+      -webkit-animation: flashing 1s ease infinite;
+      -moz-animation: flashing 1s ease infinite;
+      animation: flashing 1s ease infinite;
+}
+
+
+
+ .normal-list{
+     list-style-type: none;
+ }
+
+.connecting {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(75deg, #1c4170, #ffffff);
+    background-size: 400% 400%;
+    -webkit-animation: flashing 1s ease infinite;
+    -moz-animation: flashing 1s ease infinite;
+    animation: flashing 1s ease infinite;
+}
+
+.job-anchor {
+
+}
+
+a.job-anchor:link {text-decoration: none;  color: #fff; }
+a.job-anchor:active {text-decoration: none;  color: #fff; }
+a.job-anchor:visited {text-decoration: none;  color: #fff; }
+a.job-anchor:hover {text-decoration: none;  color: #696969; }
+a.job-anchor:focus {text-decoration: none;  color: #fff;  }
+
+@-webkit-keyframes flashing {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+@-moz-keyframes flashing {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+@keyframes flashing {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+
+
+table.space {
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align: left;
+}

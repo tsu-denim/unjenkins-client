@@ -1,0 +1,99 @@
+body {
+    background-color:#1c4170;
+    color: #fff;
+    position: relative;
+}
+
+
+input {
+    color: black;
+}
+
+
+
+#search {
+
+    text-align: left;
+
+
+}
+
+#wrapper {
+
+    min-height: 500px;
+    margin-top: auto ;
+    margin-top: auto ;
+    width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: center;
+
+}
+
+#progressBar {
+    background-image:url("../images/nyan.gif");
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:256px;width:256px;
+    margin-left: auto  ;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#heading {
+    font-family: 'Schoolbell', cursive;
+    font-size: 2em;
+
+}
+#heading:before{
+    content:"\1F43E \0000a0";
+}
+#heading:after{
+    content:"\0000a0 \1F43E";
+}
+.fadeLink {
+    opacity: 0; visibility: hidden;
+    -webkit-transition: visibility 0.2s linear, opacity 0.2s linear;
+    -moz-transition: visibility 0.2s linear, opacity 0.2s linear;
+    -o-transition: visibility 0.2s linear, opacity 0.2s linear;
+    min-width: 100px;
+    margin-left: auto  ;
+    margin-right: auto;}
+
+div:hover .fadeLink { visibility: visible; opacity:0.8;}
+
+.center {width: 400px;
+    margin-left: auto  ;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+.alert-message {
+    font-family: 'Schoolbell', cursive;
+    font-size: 2em;
+    -webkit-animation: fadeOut 2s forwards;
+    animation: fadeOut 2s forwards;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    padding: 10px;
+    text-align: center;
+}
+
+@-webkit-keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
